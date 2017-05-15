@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="250.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.snizz.staking.helper.overview.Overview">
+   <children>
+      <Button layoutX="64.0" layoutY="50.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Session" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="65.0" />
+      <Button layoutX="250.0" layoutY="50.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Spreadsheet" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
+      <Button layoutX="437.0" layoutY="50.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Graph" AnchorPane.bottomAnchor="100.0" AnchorPane.rightAnchor="65.0" />
+   </children>
+</AnchorPane>

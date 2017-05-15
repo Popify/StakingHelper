@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.snizz.staking.helper.spreadsheet.Spreadsheet">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="900.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button layoutX="100.0" layoutY="59.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="100.0" />
+            <Button layoutX="100.0" layoutY="275.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
+         </children></AnchorPane>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="900.0" AnchorPane.leftAnchor="300.0">
+         <children>
+            <TableView maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn prefWidth="35.0" text="W/L" />
+                  <TableColumn prefWidth="25.0" text="A" />
+                  <TableColumn prefWidth="25.0" text="S" />
+                  <TableColumn prefWidth="25.0" text="D" />
+                  <TableColumn prefWidth="30.0" text="HP" />
+                  <TableColumn prefWidth="25.0" text="A" />
+                  <TableColumn prefWidth="25.0" text="S" />
+                  <TableColumn prefWidth="25.0" text="D" />
+                  <TableColumn prefWidth="30.0" text="HP" />
+                  <TableColumn prefWidth="40.0" text="Odds" />
+                  <TableColumn prefWidth="40.0" text="Stake" />
+                  <TableColumn prefWidth="40.0" text="Stake" />
+                  <TableColumn prefWidth="40.0" text="X" />
+                  <TableColumn prefWidth="60.0" text="EV (M)" />
+                  <TableColumn prefWidth="60.0" text="EV (%)" />
+                  <TableColumn prefWidth="50.0" text="Profit" />
+                  <TableColumn prefWidth="40.0" text="EP" />
+                  <TableColumn prefWidth="40.0" text="AP" />
+                  <TableColumn prefWidth="250.0" text="Timestamp" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
