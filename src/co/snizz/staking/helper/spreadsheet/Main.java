@@ -13,14 +13,14 @@ import java.io.IOException;
  */
 public class Main extends Application
 {
-    private Stage spreadsheetStage;
+    private Stage ssStage;
     private AnchorPane ssLayout;
 
     @Override
-    public void start(Stage spreadsheetStage)
+    public void start(Stage ssStage)
     {
-        this.spreadsheetStage = spreadsheetStage;
-        this.spreadsheetStage.setTitle("Staking Helper: Spreadsheet");
+        this.ssStage = ssStage;
+        this.ssStage.setTitle("Staking Helper: Spreadsheet");
 
         ssLayout();
 
@@ -36,7 +36,10 @@ public class Main extends Application
 
             Scene ssScene = new Scene(ssLayout);
 
-            Spreadsheet controller = ssLoader.getController();
+            ssStage.setScene(ssScene);
+            ssStage.show();
+
+            Spreadsheet ssController = ssLoader.getController();
         }
         catch(IOException e)
         {

@@ -2,10 +2,10 @@ package co.snizz.staking.helper.overview;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
 import sun.security.pkcs11.wrapper.Functions;
 
-public class Overview
-{
+public class Overview {
     @FXML
     private Button session;
 
@@ -20,6 +20,9 @@ public class Overview
     {
 
     }
+
+
+
 
 
 
